@@ -1,0 +1,7 @@
+{
+  "name": "SGEI",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
