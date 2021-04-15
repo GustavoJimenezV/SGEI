@@ -1,20 +1,28 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
-</ion-content>
+  <ion-content padding>
+      <ion-slides pager="true" [options]="slideOps">
+          <ion-slide>
+              <ion-icon name="close"></ion-icon>
+              <img src="assets/img/LogoUpvt.png" alt="Upvt SGEI Logo"/>
+              <h1>Sube tus tareas</h1>
+              <h2>DESDE CUALQUIER DISPOSITIVO</h2>
+              <p>Accede y sube tus tareas en cualquier momento, a todas horas. </p>
+              <ion-icon name="document-outline"></ion-icon>
+          </ion-slide>
+          <ion-slide>
+              <ion-icon name="close"></ion-icon>
+              <img src="assets/img/LogoUpvt.png" alt="Upvt SGEI Logo"/>
+              <h1>Modifica Tu Cuenta</h1>
+              <h2>DESDE CUALQUIER DISPOSITIVO</h2>
+              <p>Realiza modificaciones en tu cuenta.</p>
+              <ion-icon name="accessibility-outline"></ion-icon>
+          </ion-slide>
+          <ion-slide>
+              <ion-icon name="close"></ion-icon>
+              <img src="assets/img/LogoUpvt.png" alt="Upvt SGEI Logo"/>
+              <h1>Verifica Tus Videoconferencias</h1>
+              <h2>DESDE CUALQUIER DISPOSITIVO</h2>
+              <p>Ver fechas de Videoconferencias.</p>
+              <ion-icon name="videocam-outline"></ion-icon>
+          </ion-slide>
+      </ion-slides>
+  </ion-content>
